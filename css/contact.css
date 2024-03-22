@@ -1,0 +1,84 @@
+/* Contact CSS */
+body{
+	background-color: #F4976C
+}
+div.contact{
+	width: 1200px;
+	height: auto;
+	border: 1px #FBE8A6;
+	margin: 60px;
+	padding: 30px;
+	background-color: rgb(251, 232, 166, 0.6)
+	
+}
+.form-content {
+	float: right;
+}
+.form-quota {
+	float: left;
+}
+.form-content > h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.form-content input[type=text],
+.form-content input[type=email],
+.form-content input[type=number],
+.form-content input[type=barangay],
+.form-content textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+}
+.form-content textarea { height: 115px }
+.form-content input[type=submit] {
+    border: medium none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+	float: left;
+}
+.form-content input[type=submit]:hover { background-color: #000 }
+.form-content input[type=reset] {
+    border: medium none;
+    color: orange;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+	float: right;
+}
+.form-content input[type=reset]:hover { background-color: #000 }
+.quota input[type=submit]:hover { background-color: #000 }
+.quota input[type=submit] {
+    border: medium none;
+	background-color: orange;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+	float: left;
+}
+.quota input[type=reset] {
+    border: medium none;
+    color: orange;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+	float: right;
+}
+.quota input[type=reset]:hover { background-color: #000 }
+#container {
+	font-size:20px;
+}
+select {
+	width:100%;
+	height:40px;
+	display:block;
+	margin:2px;
+}
